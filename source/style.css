@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.displaylist{
+    background-color:black;
+    color: #ffff;
+    height: 200px;
+    width: 270px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+.keypadlist{
+    background-color: #343a40;
+    color: #ffff;
+    height: auto;
+    width: 270px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: -35px;
+}
+
+.btn {
+    margin:  0;
+    padding: 25px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-up {
+    color: lightgreen;
+}
+
+.btn-right {
+    color: lightcoral;
+}
+
+/* display result scrolling to left */
+#display {
+    margin: 0 10px;
+    height: 125px;
+    width: auto;
+    max-width: 270px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 40px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+  }
+
+#display::-webkit-scrollbar {
+    display: block;
+    height: 3px;
+}

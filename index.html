@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - Yusup Almadani</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="source/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container displaylist">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 align-self-center" id="AC">calculator</div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row display-screen">
+            <div id="display">0</div>
+        </div>
+    </div>
+    <div class="container keypadlist">
+        <div class="row">
+            <div class="btn btn-dark btn-up col-3" id="clear">AC</div>
+            <div class="btn btn-dark btn-up col-3" id="-">(-)</div>
+            <div class="btn btn-dark btn-up col-3" id="%">%</div>
+            <div class="btn btn-dark btn-right col-3" id="/">&divide;</div>
+        </div>
+        <div class="row">
+            <div class="btn btn-dark col-3" id="7">7</div>
+            <div class="btn btn-dark col-3" id="8">8</div>
+            <div class="btn btn-dark col-3" id="9">9</div>
+            <div class="btn btn-dark btn-right col-3" id="*">&times;</div>
+        </div>
+        <div class="row">
+            <div class="btn btn-dark col-3" id="4">4</div>
+            <div class="btn btn-dark col-3" id="5">5</div>
+            <div class="btn btn-dark col-3" id="6">6</div>
+            <div class="btn btn-dark btn-right col-3" id="-">-</div>
+        </div>
+        <div class="row">
+            <div class="btn btn-dark col-3" id="1">1</div>
+            <div class="btn btn-dark col-3" id="2">2</div>
+            <div class="btn btn-dark col-3" id="3">3</div>
+            <div class="btn btn-dark btn-right col-3" id="+">+</div>
+        </div>
+        <div class="row">
+            <div class="btn btn-dark col-3" id="delete">C</div>
+            <div class="btn btn-dark col-3" id="0">0</div>
+            <div class="btn btn-dark col-3" id=".">.</div>
+            <div class="btn btn-dark btn-right col-3" id="equal">=</div>
+        </div>
+    </div>
+    <script src="source/script.js"></script>
+</body>
+</html>

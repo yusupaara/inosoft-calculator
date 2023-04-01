@@ -18,7 +18,8 @@ buttons.forEach((item) => {
       }
     } else if (
       display.innerText == "0" &&
-      (item.id == "1" ||
+      (item.id == "0" ||
+      item.id == "1" ||
         item.id == "2" ||
         item.id == "3" ||
         item.id == "4" ||
